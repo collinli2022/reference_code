@@ -3,7 +3,7 @@
 # Settings for iBeacon advertisment
 advertiser:
   control_file: 'advertiser_control' # Control file which stops beacon advertisement before timeout
-  timeout: 20 # Advertisement timeout (s)
+  timeout: 600 # Advertisement timeout (s)
   uuid: '' # UUID, major, and minor values to advertise
   major: 1
   minor: 1 
