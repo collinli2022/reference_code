@@ -711,7 +711,7 @@ def main(args):
             scanner = Scanner(logger, **config['scanner'])
             advertisements = scanner.scan()
             output = advertisements
-    except Exception:
+    except Exception as e:
         logger.exception("Fatal exception encountered")
     finally:
         close_logger(logger)
